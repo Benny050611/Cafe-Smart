@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Global defaults only. Feature-specific styling stays inside its owner feature. */
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-synthesis: none;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
